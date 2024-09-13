@@ -1,6 +1,6 @@
-bas = float(input("Ange rektangelns bas: "))
-höjd = float(input("Ange rektangelns höjd: "))
+bas = float(input("Ange triangelns bas: "))
+höjd = float(input("Ange triangelns höjd: "))
 area = (bas * höjd)/2
 print("Bas:", bas)
 print("Höjd: ", höjd)
-print("Area:", area)
+print("Triangelns area:", area)
