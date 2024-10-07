@@ -7,10 +7,11 @@ print("Kvällens spel är Lucky Seven.")
 print("")
 print("Tre tal slumpas. Möjliga slumptal är 0, 1, 2,... och  9. Talen visas. Om alla talen är lika blir det vinst. Tre sjuor ger dubbel vinst.")
 print("")
-print("Varje spel kostar 1 krona.")
+print("Varje spel kostar 2 krona.")
 print("")
 print("Vinstplan:")
-print("Tre sjuor: 50kr")
+print("Tre sjuor: 100kr")
+print("Tre lika: 50kr")
 print("Två lika: 5kr")
 print("En sjua: 2kr")
 
@@ -35,7 +36,7 @@ while spela == "j":
     if cash < 1:
         print("Du har inga pengar kvar, tack för att du spelade!")
 
-    cash = cash - 1
+    cash = cash - 2
     print("Tärningarna kastas..")
     time.sleep(0.5)
     print("Det blir...")
@@ -67,7 +68,7 @@ while spela == "j":
         lucky = lucky + 1
         cash = cash + 100
     else:
-        print("Du förlora, -1kr")
+        print("Du förlora, -2kr")
         förlust = förlust + 1
     
     print(cash, "kr kvar")

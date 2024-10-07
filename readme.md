@@ -1,5 +1,9 @@
 Jay Carlsson Loggbok
 ====================
+24-10-07
+------------
+Gjort flera slumpspel med import random.
+------------
 24-09-23
 ------------
 Gått igenom import time samt import random, även använt mig av while-loopar.
