@@ -1,5 +1,9 @@
 Jay Carlsson Loggbok
 ====================
+24-10-21
+------------
+Lite for slingor och dictionarys.
+------------
 24-10-18
 ------------
 Jag har testat att skapa flödesdiagram.
