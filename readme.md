@@ -3,6 +3,7 @@ Jay Carlsson Loggbok
 24-10-18
 ------------
 Jag har testat att skapa flödesdiagram.
+------------
 24-10-07
 ------------
 Gjort flera slumpspel med import random.

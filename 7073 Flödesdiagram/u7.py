@@ -1,16 +1,44 @@
 import random
 
-sspdict = dict({"Sten": 1, "Sax" : 2, "Påse" : 3})
+sspdict = dict({
+    1: "Sten",
+    2: "Sax",
+    3: "Påse"
+})
 
-i = 0
+resdict = dict({
+    1: "Du förlora",
+    -2: "Du förlora",
+    2: "Du vann",
+    -1: "Du vann",
+    0: "Lika"
+})
 
-while i < 10:
+vinst = 0
+förlust = 0
+
+for i in range(10):
     print(sspdict)
-    pv = int(input("Välj siffran för Sten, Sax eller Påse"))
+    pv = int(input("Välj Sten, Sax eller Påse "))
 
-    dv, dvt = random.choice(list(sspdict.items()))
+    rk, rv = random.choice(list(sspdict.items()))
 
     if pv in sspdict:
-        print(f"Matched key: {pv}, Value: {sspdict[pv]}")
+        print(f"Spelaren valde {sspdict[pv]}")
 
-    i += 1
+    if rk in sspdict:
+        print(f"Datorn valde {sspdict[rk]}")
+
+    svar = pv - rk
+
+    if svar in resdict:
+        print(f"{resdict[svar]}")
+
+    if resdict[svar] == "Du förlora":
+        förlust += 1
+    elif resdict[svar] == "Du vann":
+        vinst += 1
+
+    print("Förlust: ", förlust, "Vinst ", vinst)
+
+print("Klar")
