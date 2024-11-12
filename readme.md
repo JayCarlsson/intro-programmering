@@ -1,5 +1,9 @@
 Jay Carlsson Loggbok
 ====================
+24-11-11
+------------
+Började med listor.
+------------
 24-10-21
 ------------
 Lite for slingor och dictionarys.
