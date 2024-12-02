@@ -1,5 +1,13 @@
 Jay Carlsson Loggbok
 ====================
+24-12-02
+------------
+Skapade krypteringsmetod och dekrypteringsmetod.
+------------
+24-11-29
+------------
+Fortsatt med listor
+------------
 24-11-11
 ------------
 Började med listor.
