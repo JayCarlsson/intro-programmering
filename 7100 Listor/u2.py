@@ -1,4 +1,4 @@
-tal_lista = [*range(100, 1, -1)]
+tal_lista = [*range(1000, 1, -1)]
 primtal = []
 print("test")
 while tal_lista != []:

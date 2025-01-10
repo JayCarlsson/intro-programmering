@@ -2,6 +2,7 @@ text = input("Type something encrypted and I'll decrypt it! ")
 text = text.lower()
 
 cstep = int(input("Hur många ska jag dekryptera? "))
+cstep = cstep % 26
 
 crypt = []
 

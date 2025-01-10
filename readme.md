@@ -1,5 +1,9 @@
 Jay Carlsson Loggbok
 ====================
+25-01-10
+------------
+Made a simple Encrypter and Decifer.
+------------
 24-12-02
 ------------
 Skapade krypteringsmetod och dekrypteringsmetod.

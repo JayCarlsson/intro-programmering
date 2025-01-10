@@ -2,6 +2,7 @@ text = input("Type something and I'll encrypt it: ")
 text = text.lower()
 
 cstep = int(input("Hur många steg ska det enkrypteras? "))
+cstep = cstep % 26
 
 crypt = []
 
