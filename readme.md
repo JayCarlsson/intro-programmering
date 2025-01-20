@@ -1,5 +1,9 @@
 Jay Carlsson Loggbok
 ====================
+25-01-20
+------------
+Started making an RSA-Encryption
+------------
 25-01-10
 ------------
 Made a simple Encrypter and Decifer.

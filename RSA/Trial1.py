@@ -1,6 +1,6 @@
 import random
 
-primes = [61, 53]
+primes = [83, 11]
 p = primes[0]
 q = primes[1]
 
@@ -25,3 +25,32 @@ print(primes)
 '''
 
 n = p * q
+e = 3
+phi_n = 820
+d = (2*phi_n+1)/3
+
+if 3 * d == (2*phi_n)+1:
+    print("Correct private key")
+else:
+    print("False")
+message = 4
+crypt_mes = (message**e)%n
+rm = message%n
+
+print(phi_n)
+print(n)
+print(e)
+print(d)
+print(message)
+print("Encrypted message", c)
+if message%n == :
+    print("Depcryption complete", rm)
+
+'''
+k*d % 820 = 1
+
+phi(913) = (82)*(10)
+
+
+print(n)
+'''
